@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Converter",
+            "request": "launch",
+            "mainClass": "Converter",
+            "projectName": "Assignment13_5fd7df59"
+        },
+        {
+            "type": "java",
+            "name": "FX",
+            "request": "launch",
+            "mainClass": "Converter",
+            "projectName": "Assignment13_5fd7df59",
+            "vmArgs": "--module-path c:\\Users\\jacob\\Documents\\javafx-sdk-19.0.2.1\\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.swing,javafx.media,javafx.base,javafx.web"
+        }
+    ]
+}
